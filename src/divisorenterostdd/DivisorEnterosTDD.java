@@ -16,6 +16,12 @@ public class DivisorEnterosTDD {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Dividir division1 = new Dividir();
+        try{
+            System.out.println(Dividir.division(4, 3));
+        } catch(ArithmeticException e){
+            System.out.println("No Existe División para 0");
+        }
     }
     
 }
